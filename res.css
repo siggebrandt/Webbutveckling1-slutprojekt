@@ -1,0 +1,35 @@
+@media only screen and (max-width: 950px) {
+    .mainscreen, .banner, .banner-1 {
+        background-position: center;
+    }
+    #menu li {
+        font-size: 1.1em;
+        padding: 20px;
+    }
+    #theme { 
+        display: none;
+    }
+    #scrollText { display: none }
+    footer hr { display: none;}    
+}
+
+/* --- M O B I L E ---*/
+@media only screen and (max-width: 750px) {
+    .mainscreen, .banner, .banner-1 {
+        display: initial;
+    }
+    #welcomeText {margin-top: auto; backdrop-filter: none; color:black; margin-bottom: 0;}
+    .mainscreen-mobile, .banner-mobile { display: block; width: 100%;margin-top:3.5em }
+    .navbar {
+        padding: 10px 0;
+        background-color: white;
+    }
+    .navbar li a {
+        color:black;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 650px) { #menu li { padding: 10px 5px } }
